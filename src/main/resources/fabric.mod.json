@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mod_1",
+  "version": "1.0",
+  "name": "TinMod",
+  "description": "This mod implements Tin and Bronze into the game",
+  "authors": [
+    "ExtraSlow"
+  ],
+  "contact": {
+    "repo": "https://github.com/I/mod_1"
+  },
+  "license": "CC BY-NC-SA",
+  "icon": "assets/mod_1/E_alpha03_large_tinMod.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.extraslow.mod_1.client.Mod_1Client"
+    ],
+    "main": [
+      "org.extraslow.mod_1.Mod_1"
+    ]
+  },
+  "mixins": [
+    "extraslow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

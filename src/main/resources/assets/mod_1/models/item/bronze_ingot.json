@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mod_1:item/bronze_ingot_1.0"
+  }
+}
